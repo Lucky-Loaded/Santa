@@ -1,16 +1,20 @@
 #include "MagicBoard.h"
+#include "Observer.h"
 
 MagicBoard::MagicBoard()
 {
 	Board = this;
 }
 
-void MagicBoard::Push(Observer* Observer)
+void MagicBoard::Register(Observer* ObserverIn)
 {
-	observers->push_back(Observer);
+	observers.push_back(ObserverIn);
 }
 
-void MagicBoard::Remove(Observer* Observer)
+void MagicBoard::NotifyObservers()
 {
-	observers->remove(Observer);
+	for (Observer* LObserver : observers)
+	{
+		LObserver->Notify();
+	}
 }

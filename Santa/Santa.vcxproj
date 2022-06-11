@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Barbie.cpp" />
+    <ClCompile Include="BarbieCommand.cpp" />
     <ClCompile Include="BarbieFactory.cpp" />
     <ClCompile Include="Bicycle.cpp" />
     <ClCompile Include="BicycleCommand.cpp" />
@@ -155,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Barbie.h" />
+    <ClInclude Include="BarbieCommand.h" />
     <ClInclude Include="BarbieFactory.h" />
     <ClInclude Include="Bicycle.h" />
     <ClInclude Include="BicycleCommand.h" />

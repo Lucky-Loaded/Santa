@@ -78,6 +78,9 @@
     <ClCompile Include="BicycleCommand.cpp">
       <Filter>Исходные файлы\Command</Filter>
     </ClCompile>
+    <ClCompile Include="BarbieCommand.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Santa.h">
@@ -115,6 +118,9 @@
     </ClInclude>
     <ClInclude Include="BicycleCommand.h">
       <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="BarbieCommand.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

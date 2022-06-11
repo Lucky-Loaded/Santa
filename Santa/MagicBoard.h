@@ -2,7 +2,7 @@
 #include "Subject.h"
 #include "MagicBoard.h"
 #include <iterator>
-#include <list>
+#include <vector>
 
 class MagicBoard : public Subject
 {
@@ -12,15 +12,15 @@ protected:
 	MagicBoard();
 private:
 
-	list<Observer*>* observers = new list<Observer*>();
+	vector<Observer*> observers;
 
 	MagicBoard* Board = nullptr;
 
 public:
 
-	void Push(Observer* Observer) override;
+	void Register(Observer* ObserverIn) override;
 
-	void Remove(Observer* Observer) override;
+	void NotifyObservers() override;
 
 };
 
