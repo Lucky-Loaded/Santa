@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Gift">
+      <UniqueIdentifier>{910ecc0b-d578-412c-8aad-64a5b3fbffd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Gift">
+      <UniqueIdentifier>{d9a32414-5a48-47dc-80dc-51fc3e7d1b9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Factory">
+      <UniqueIdentifier>{14c74959-bbca-4c41-a60c-97d3f77061f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Factory">
+      <UniqueIdentifier>{2993a69c-6f16-44cb-8bc2-3898d3021b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Observer">
+      <UniqueIdentifier>{87f120f2-0988-4692-9abb-ba7c0e4f26e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Observer">
+      <UniqueIdentifier>{5f3493a5-6fb5-43b3-ad57-dccc47918779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Command">
+      <UniqueIdentifier>{cd41f56b-7fec-4f9b-bce1-e9e8f0ca9734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Command">
+      <UniqueIdentifier>{def7b157-660a-4451-815c-c6ba99b3d76c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SantaWorkshop.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Santa.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Bicycle.cpp">
+      <Filter>Исходные файлы\Gift</Filter>
+    </ClCompile>
+    <ClCompile Include="Gift.cpp">
+      <Filter>Исходные файлы\Gift</Filter>
+    </ClCompile>
+    <ClCompile Include="Barbie.cpp">
+      <Filter>Исходные файлы\Gift</Filter>
+    </ClCompile>
+    <ClCompile Include="BicycleFactory.cpp">
+      <Filter>Исходные файлы\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>Исходные файлы\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="BarbieFactory.cpp">
+      <Filter>Исходные файлы\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Исходные файлы\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Исходные файлы\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="MagicBoard.cpp">
+      <Filter>Исходные файлы\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Исходные файлы\Command</Filter>
+    </ClCompile>
+    <ClCompile Include="BicycleCommand.cpp">
+      <Filter>Исходные файлы\Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Santa.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Bicycle.h">
+      <Filter>Файлы заголовков\Gift</Filter>
+    </ClInclude>
+    <ClInclude Include="Gift.h">
+      <Filter>Файлы заголовков\Gift</Filter>
+    </ClInclude>
+    <ClInclude Include="Barbie.h">
+      <Filter>Файлы заголовков\Gift</Filter>
+    </ClInclude>
+    <ClInclude Include="BicycleFactory.h">
+      <Filter>Файлы заголовков\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Файлы заголовков\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="BarbieFactory.h">
+      <Filter>Файлы заголовков\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Файлы заголовков\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Файлы заголовков\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="MagicBoard.h">
+      <Filter>Файлы заголовков\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+    <ClInclude Include="BicycleCommand.h">
+      <Filter>Файлы заголовков\Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
