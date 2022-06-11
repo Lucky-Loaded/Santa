@@ -2,9 +2,9 @@
 #include "Factory.h"
 #include "Bicycle.h"
 
-class BicycleFactory : Factory
+class BicycleFactory : public Factory
 {
-private:
+public:
 
 	Gift* CreateGift() const override;
 

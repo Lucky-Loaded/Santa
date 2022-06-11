@@ -2,8 +2,17 @@
 //
 
 #include <iostream>
+#include "Santa.h"
+#include "Factory.h"
+#include "BarbieFactory.h"
+#include "BicycleFactory.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Santa* santa = new Santa();
+    BicycleFactory* bicycleFactory = new BicycleFactory();
+    BarbieFactory* barbieFactory = new BarbieFactory();
+
+    santa->AddGiftInBag(bicycleFactory->CreateGift());
+    santa->AddGiftInBag(barbieFactory->CreateGift());
 }

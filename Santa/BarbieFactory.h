@@ -3,6 +3,8 @@
 
 class BarbieFactory : public Factory
 {
+public:
+
 	Gift* CreateGift() const override;
 };
 

@@ -2,6 +2,7 @@
 
 Santa::Santa()
 {
+	command = new Command();
 }
 
 void Santa::AddGiftInBag(Gift* gift)
